@@ -1,0 +1,55 @@
+/* Đặt nền trang web bằng ảnh */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('your-background-image.jpg'); /* Thay đường dẫn ảnh của bạn ở đây */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+/* Căn chỉnh nội dung trong container */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text h3 {
+    margin-bottom: 20px;
+}
+
+/* Styling cho nút */
+button {
+    background-color: #4CAF50; /* Màu nền của nút */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50px; /* Bo tròn nút */
+    transition: background-color 0.3s, transform 0.3s; /* Thêm hiệu ứng chuyển tiếp */
+}
+
+button#disagree {
+    background-color: #f44336; /* Màu nền của nút Không đồng ý */
+}
+
+button:hover {
+    background-color: #3e8e41; /* Màu nền khi hover */
+    transform: scale(1.1); /* Phóng to khi hover */
+}
+
+button#disagree:hover {
+    background-color: #d32f2f; /* Màu nền khi hover của nút Không đồng ý */
+}
