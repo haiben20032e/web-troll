@@ -64,5 +64,5 @@ disagreeBtn.addEventListener('click', moveButton);
 
 // Gán sự kiện click cho nút "Đồng ý"
 agreeBtn.addEventListener('click', function() {
-  showNotification('Đạt béo thật', 'image/c2.png'); // Thay đường dẫn ảnh của bạn ở đây
+  showNotification('Đạt béo thật', 'image/c4.jpg'); // Thay đường dẫn ảnh của bạn ở đây
 });
